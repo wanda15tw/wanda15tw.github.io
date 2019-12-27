@@ -1,13 +1,12 @@
 ---
 layout: page
-title: share
+title: resources
 description: Share other learning resources.
 ---
 
 
 ## Book Recommendation
 * [Think Python](https://greenteapress.com/wp/think-python/)
-
 Think Python First Edition, by Allen B. Downey
 
 
