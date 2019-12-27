@@ -34,7 +34,7 @@
 			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
 			<h2>{{ site.plainwhite.name }}</h2>
 			<p class="tagline">{{ site.plainwhite.tagline }}</p>
-			<p class="tagline">{{ site.plainwhite.motto }}</p>
+			<p class="motto">{{ site.plainwhite.motto }}</p>
 			<ul class="social">
                 {%- if site.plainwhite.social_links.github -%}
 				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
@@ -44,6 +44,9 @@
                 {%- endif -%}
                 {%- if site.plainwhite.social_links.twitter -%}
                 <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
+                {%- endif -%}
+                {%- if site.plainwhite.social_links.instagram -%}
+                <a href="https://instagram.com/{{ site.plainwhite.social_links.instagram }}"><li><i class="icon-instagram-squared"></i></li></a>
                 {%- endif -%}
 			</ul>
 			<p>&copy; 2019</p>
