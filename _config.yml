@@ -2,9 +2,7 @@ title: Wanda Juan's blog
 author: wanda15tw
 email: dotdotpanda@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Full stack data scientist passionate about making positive impacts to the world.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -14,12 +12,12 @@ sass:
 plainwhite:
   name: Wanda Juan
   tagline: Data Scientist, MBA, Mom
-  motto: I can have it all
+  motto: I can have it all - just enjoy
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: wanda-juan
   analytics_id: 'UA-155092959-1'
-  
+
   # generate social links in footer
   social_links:
     twitter: dotdotpanda
