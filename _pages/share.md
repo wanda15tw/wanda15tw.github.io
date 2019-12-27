@@ -1,6 +1,6 @@
 ---
 layout: page
-title: resources
+title: share
 description: Share other learning resources.
 ---
 
