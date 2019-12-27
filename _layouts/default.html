@@ -9,7 +9,7 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="/">Flask Blog</a>
+          <a class="navbar-brand mr-4" href="/">Tech Blog</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,6 +34,7 @@
 			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
 			<h2>{{ site.plainwhite.name }}</h2>
 			<p class="tagline">{{ site.plainwhite.tagline }}</p>
+			<p class="tagline">{{ site.plainwhite.motto }}</p>
 			<ul class="social">
                 {%- if site.plainwhite.social_links.github -%}
 				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
