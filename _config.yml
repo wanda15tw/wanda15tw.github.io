@@ -13,13 +13,13 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Wanda Juan
-  tagline: Data Scientist, Business Woman, Mom
+  tagline: Data Scientist, MBA, Mom
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    # twitter: dotdotpanda
+    twitter: dotdotpanda
     github:  wanda15tw
     linkedIn: in/wanda-juan-a481a860
     rss: rss
