@@ -4,11 +4,7 @@ title:  "PostgreSQL on AWS and get started"
 date:   2020-02-19 21:20:00 +0530
 categories: DataScience SQL AWS
 ---
-
-
-###### tags: `note`, `tutorial`, `SQL`
-
-# PostgreSQL on AWS and get started
+* View this markdown in [hack.md](https://hackmd.io/@wG5x2COsRkOpxhsHnBO1_A/HJA4rcyXU).
 
 This is a note/tutorial about (1) setting up a Postgre DB on AWS, (2) connecting to the DB using  **pgAdmin**, and (3) interaction with the DB using **Python sqlalchemy**.
 
