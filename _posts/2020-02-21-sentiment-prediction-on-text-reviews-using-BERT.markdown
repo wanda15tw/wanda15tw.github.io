@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sentiment prediction on text reviews using BERT"
-date:   2020-02-121
+date:   2020-02-21
 categories: DataScience NLP BERT
 ---
 * View this markdown in [hack.md](https://hackmd.io/@wG5x2COsRkOpxhsHnBO1_A/HJA4rcyXU).
