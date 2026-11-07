@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automating my credit card statements with AI, without handing it my secrets"
-date:   2026-11-08
+date:   2026-11-07
 categories: Automation AI Security
 ---
 
