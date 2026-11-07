@@ -14,14 +14,14 @@ It is not a public service. The only user is the site owner.
 
 ## Privacy Policy
 
-*Last updated: 2026-11-06*
+*Last updated: 2026-11-08*
 
 **Data accessed.** The app requests read-only access to Gmail (`gmail.readonly`). It only searches for and reads credit card statement emails and their PDF attachments.
 
 **How data is used.** Statement PDFs are unlocked and saved to the owner's own Google Drive. Nothing else is done with Gmail data.
 
-**Storage and sharing.** All processing happens locally on the owner's computer. No Gmail data is sent to, stored on, or shared with any third-party server. The OAuth token is stored locally with owner-only file permissions.
+**Storage and sharing.** Downloading and unlocking happen locally on the owner's computer, and the OAuth token is stored locally with owner-only file permissions. The unlocked statements in the owner's Google Drive are then analyzed by an AI assistant (Anthropic's Claude) that the owner uses for personal budgeting. Gmail data is not sold or shared with anyone else.
 
 **Revoking access.** Access can be revoked at any time at [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
 
-**Contact.** dotdotpanda@gmail.com
+**Contact.** Through the owner's GitHub profile: [github.com/wanda15tw](https://github.com/wanda15tw).
