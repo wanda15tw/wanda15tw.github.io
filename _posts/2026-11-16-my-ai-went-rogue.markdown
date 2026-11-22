@@ -2,7 +2,12 @@
 layout: post
 title:  "My AI went rogue. How I fixed it with AI"
 date:   2026-11-16
-categories: AI ClaudeCode Productivity
+categories: [AI, Claude Code]
+tags: [claude-code, productivity, ai-workflow]
+description: "A two-day analysis that should have taken one led me to 62 stale memory notes. How I audited them and rebuilt my Claude Code setup to work my way."
+redirect_from:
+  - /ai/claudecode/productivity/2026/11/16/my-ai-went-rogue.html
+pin: true
 ---
 
 ## The problem

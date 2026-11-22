@@ -2,7 +2,11 @@
 layout: post
 title:  "Advanced SQL Functions"
 date:   2020-01-03 21:20:00 +0530
-categories: DataScience SQL
+categories: [Data Science, SQL]
+tags: [sql, cheatsheet, window-functions]
+description: "A cheat sheet of SQL functions I wish I had learned sooner: WITH subqueries, window functions, LISTAGG, LAG/LEAD and more."
+redirect_from:
+  - /datascience/sql/2020/01/03/advanced-sql-functions.html
 ---
 
 

@@ -2,7 +2,11 @@
 layout: post
 title:  "Sentiment prediction on text reviews using BERT"
 date:   2020-02-21
-categories: DataScience NLP BERT
+categories: [Data Science, NLP]
+tags: [nlp, bert, sentiment-analysis, python]
+description: "Predicting the sentiment of text reviews by fine-tuning Google's pre-trained BERT model, from data preparation to prediction."
+redirect_from:
+  - /datascience/nlp/bert/2020/02/21/sentiment-prediction-on-text-reviews-using-BERT.html
 ---
 * View this markdown in [hack.md](https://hackmd.io/@wG5x2COsRkOpxhsHnBO1_A/HJGGm3TQU).
 

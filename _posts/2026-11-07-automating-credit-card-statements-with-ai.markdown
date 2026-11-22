@@ -2,7 +2,11 @@
 layout: post
 title:  "Automating my credit card statements with AI, without handing it my secrets"
 date:   2026-11-07
-categories: Automation AI Security
+categories: [AI, Automation]
+tags: [automation, security, privacy, claude, python]
+description: "A monthly pipeline that collects, unlocks and reviews my credit card statements with AI, built around what the AI should never be able to see."
+redirect_from:
+  - /automation/ai/security/2026/11/07/automating-credit-card-statements-with-ai.html
 ---
 
 ## Why I built this

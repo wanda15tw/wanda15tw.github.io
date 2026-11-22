@@ -1,0 +1,21 @@
+# The contact icons at the bottom of the sidebar.
+# Icons powered by <https://fontawesome.com/>
+
+- type: github
+  icon: "fab fa-github"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/wanda-juan-a481a860"
+
+- type: instagram
+  icon: "fab fa-instagram"
+  url: "https://instagram.com/pandawawawaoh"
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true

@@ -1,0 +1,67 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* ---------- Brand: "panda purple", taken from the favicon ---------- */
+
+@mixin brand-light {
+  --brand: #5b4e9a;
+  --brand-soft: #f3f0fa;
+  --link-color: var(--brand);
+  --link-underline-color: #d9d3ef;
+  --sidebar-bg: var(--brand-soft);
+  --sidebar-border-color: #e6e1f4;
+  --sidebar-hover-bg: rgb(91 78 154 / 10%);
+  --sidebar-active-color: var(--brand);
+  --site-title-color: #2f2851;
+  --site-subtitle-color: #6b6488;
+  --avatar-border-color: #ffffff;
+  --btn-share-hover-color: var(--brand);
+  --toc-highlight: var(--brand);
+}
+
+@mixin brand-dark {
+  --brand: #b4a9ea;
+  --brand-soft: #1d1a29;
+  --link-color: var(--brand);
+  --link-underline-color: #4a4370;
+  --sidebar-bg: var(--brand-soft);
+  --sidebar-border-color: #2b2740;
+  --sidebar-hover-bg: rgb(180 169 234 / 10%);
+  --sidebar-active-color: var(--brand);
+  --site-title-color: #e6e1fa;
+  --site-subtitle-color: #a39dbd;
+  --avatar-border-color: #2b2740;
+  --btn-share-hover-color: var(--brand);
+  --toc-highlight: var(--brand);
+}
+
+:root[data-bs-theme='light'] { @include brand-light; }
+:root[data-bs-theme='dark'] { @include brand-dark; }
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-bs-theme]) { @include brand-light; }
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-bs-theme]) { @include brand-dark; }
+}
+
+/* Small branded touches */
+#sidebar .site-title { letter-spacing: 0.02em; }
+#sidebar .site-subtitle { font-size: 0.85rem; line-height: 1.5; }
+#sidebar #avatar { box-shadow: 0 0 0 3px var(--brand); }
+#sidebar .nav-link.active, #sidebar .nav-item.active .nav-link { color: var(--brand); }
+.post-tail-wrapper .post-tags .post-tag:hover,
+a.post-tag:hover { border-color: var(--brand); color: var(--brand); }

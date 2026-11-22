@@ -2,7 +2,11 @@
 layout: post
 title:  "PostgreSQL on AWS and get started"
 date:   2020-02-19 21:20:00 +0530
-categories: DataScience SQL AWS
+categories: [Data Science, Cloud]
+tags: [postgresql, aws, rds, pgadmin, sqlalchemy]
+description: "Set up a PostgreSQL database on AWS RDS, connect with pgAdmin, and read and write it from Python with SQLAlchemy."
+redirect_from:
+  - /datascience/sql/aws/2020/02/19/PostgreSQL-on-AWS.html
 ---
 * View this markdown in [hack.md](https://hackmd.io/@wG5x2COsRkOpxhsHnBO1_A/HJA4rcyXU).
 

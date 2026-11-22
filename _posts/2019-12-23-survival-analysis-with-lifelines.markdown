@@ -2,7 +2,11 @@
 layout: post
 title:  "Survival Analysis with Lifelines"
 date:   2019-12-23 21:03:36 +0530
-categories: DataScience Python
+categories: [Data Science, Python]
+tags: [python, lifelines, survival-analysis, predictive-maintenance]
+description: "A predictive-maintenance walkthrough of survival analysis in Python with lifelines: Kaplan-Meier, hazard functions, Weibull fits and a newsvendor bonus."
+redirect_from:
+  - /datascience/python/2019/12/23/survival-analysis-with-lifelines.html
 ---
 
 * View this markdown in [github](https://github.com/wanda15tw/survival-analysis), [HackMD](https://hackmd.io/@wG5x2COsRkOpxhsHnBO1_A/HJzZ880AS)
